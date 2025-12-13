@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: "XYFORA Full Stack APIs",
   description: "XYFORA Full Stack Restful APIs",
   icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg"
+    icon: "/favicon.ico",
+    apple: "/favicon.ico"
   }
 };
 
