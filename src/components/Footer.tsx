@@ -5,8 +5,8 @@ const Footer = () => {
     const year = new Date().getFullYear();
 
     return (
-        <footer className="flex justify-center py-5 bg-black text-xl text-gray-200">
-            <h1 className="font-semibold">
+        <footer className="flex justify-center py-5 bg-black text-xl text-gray-200 px-4">
+            <h1 className="font-semibold text-center">
                 Copyright © {year} - Powered By {" "}
 
                 <Link
@@ -14,7 +14,9 @@ const Footer = () => {
                     href="https://www.xyfora.se/"
                     target="_blank"
                 >
-                    <span className="font-extrabold">XYFORA</span>
+                    <span className="font-extrabold">
+                        XYFORA
+                    </span>
                 </Link>
             </h1>
         </footer>
