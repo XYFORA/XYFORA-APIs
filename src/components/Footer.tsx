@@ -6,15 +6,17 @@ const Footer = () => {
 
     return (
         <footer className="flex justify-center py-5 bg-black text-xl text-gray-200">
-            © {year} - Powered By{" "}
+            <h1 className="font-semibold">
+                Copyright © {year} - Powered By {" "}
 
-            <Link
-                className="ml-1 font-semibold text-white hover:text-cyan-500 transition-colors"
-                href="https://xyfora.se"
-                target="_blank"
-            >
-                XYFORA
-            </Link>
+                <Link
+                    className="text-white hover:text-blue-500 transition-colors"
+                    href="https://www.xyfora.se/"
+                    target="_blank"
+                >
+                    <span className="font-extrabold">XYFORA</span>
+                </Link>
+            </h1>
         </footer>
     );
 };
