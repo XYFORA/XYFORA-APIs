@@ -6,12 +6,12 @@ const Footer = () => {
 
     return (
         <footer className="flex justify-center py-5 bg-black text-xl text-gray-200 px-4">
-            <h1 className="font-semibold text-center">
+            <h1 className="font-bold! text-center">
                 Copyright © {year} - Powered By {" "}
 
                 <Link
                     className="text-white hover:text-blue-500 transition-colors"
-                    href="https://www.xyfora.se/"
+                    href="https://xyfora-website.vercel.app/"
                     target="_blank"
                 >
                     <span className="font-extrabold">

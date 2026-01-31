@@ -7,12 +7,12 @@ export const getApiDocs = async () => {
         definition: {
             openapi: "3.0.0",
             info: {
-                title: "XYFORA APIs",
+                title: "XYFORA Full Stack Modern & Secure APIs",
                 version: "1.0.0",
-                description: "XYFORA delivers robust, high-performance APIs built with Express and Nest.js to support websites, web apps, and e-commerce platforms.",
+                description: "XYFORA delivers robust, high-performance APIs built with Express and Nest.js to support websites, full stack web apps, and e-commerce platforms.",
                 contact: {
                     name: "XYFORA",
-                    email: "info@xyfora.se",
+                    email: "main.xyfora@gmail.com",
                 },
             },
             components: {
